@@ -1,0 +1,23 @@
+{
+  "event_summary": {
+    "date": "2024-09-15T00:00:00",
+    "duration_hours": 4,
+    "baseline_kw": 40.29,
+    "average_actual_kw": 31.9,
+    "total_reduction_kwh": 33.53,
+    "average_reduction_kw": 8.38,
+    "reduction_percentage": 20.8
+  },
+  "performance_metrics": {
+    "committed_kw": 8,
+    "achieved_kw": 8.38,
+    "performance_ratio": 1.048,
+    "compliance": "PASSED"
+  },
+  "payment_summary": {
+    "event_payment": 15.09,
+    "monthly_capacity": 500,
+    "total_payment": 515.09,
+    "annual_projection": 6724.35
+  }
+}

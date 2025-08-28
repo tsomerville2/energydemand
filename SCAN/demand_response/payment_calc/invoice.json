@@ -1,0 +1,32 @@
+{
+  "invoice_number": "DR-20250827-3866",
+  "invoice_date": "2025-08-27T22:56:58.567153",
+  "customer": {
+    "name": "Example Commercial Building",
+    "account": "COM-12345",
+    "enrolled_capacity": 10,
+    "dr_program": "Critical Peak Pricing"
+  },
+  "event_details": {
+    "event_date": "2024-09-15T00:00:00",
+    "event_hours": [
+      14,
+      15,
+      16,
+      17
+    ],
+    "baseline_load": 40.28835489001369,
+    "average_actual_load": 31.904662490077776,
+    "total_reduction": 33.53476959974368,
+    "performance_ratio": 1.04796154999199
+  },
+  "payment_breakdown": {
+    "capacity": 500,
+    "energy": 5.030215439961553,
+    "performance": 1.6767384799871843,
+    "peak": 8.38369239993592,
+    "penalties": 0,
+    "total": 515.0906463198847
+  },
+  "payment_status": "APPROVED"
+}

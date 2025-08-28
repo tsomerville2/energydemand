@@ -1,0 +1,28 @@
+{
+  "Transaction Details": {
+    "ID": "NOM123456",
+    "Gas Day": "2025-08-28",
+    "Cycle": "TIMELY",
+    "Shipper": "EXAMPLE_GAS_MARKETING",
+    "Pipeline": "TRANSCANADA_PIPELINE"
+  },
+  "Locations": [
+    {
+      "Type": "Receipt",
+      "Location": "PERMIAN_HUB",
+      "Quantity (DTH)": "50,000",
+      "Counterparty": "PRODUCER_ABC"
+    },
+    {
+      "Type": "Delivery",
+      "Location": "CHICAGO_CITYGATE",
+      "Quantity (DTH)": "50,000",
+      "Counterparty": "LDC_CHICAGO"
+    }
+  ],
+  "Totals": {
+    "Total Receipt": 50000,
+    "Total Delivery": 50000,
+    "Imbalance": 0
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "transaction_id": "NOM-B607603D",
+    "confirmation_id": "CONF-78DBDAB0",
+    "status": "CONFIRMED",
+    "requested_quantity": 80000,
+    "scheduled_quantity": 80000,
+    "effective_time": "2025-08-28",
+    "pipeline": "TransCanada"
+  },
+  {
+    "transaction_id": "NOM-1DEB100C",
+    "confirmation_id": "CONF-B14F86A5",
+    "status": "CONFIRMED",
+    "requested_quantity": 25000,
+    "scheduled_quantity": 25000,
+    "effective_time": "2025-08-28",
+    "pipeline": "Kinder Morgan"
+  },
+  {
+    "transaction_id": "NOM-FDDEB86F",
+    "confirmation_id": "CONF-80F05D1F",
+    "status": "CONFIRMED",
+    "requested_quantity": 40000,
+    "scheduled_quantity": 40000,
+    "effective_time": "2025-08-28",
+    "pipeline": "Williams"
+  },
+  {
+    "transaction_id": "NOM-7EB520E8",
+    "confirmation_id": "CONF-610C3A64",
+    "status": "CONFIRMED",
+    "requested_quantity": 15000,
+    "scheduled_quantity": 15000,
+    "effective_time": "2025-08-28",
+    "pipeline": "Enterprise"
+  }
+]

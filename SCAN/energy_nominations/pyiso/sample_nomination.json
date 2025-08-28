@@ -1,0 +1,130 @@
+{
+  "transaction_id": "NOM-2024-001",
+  "market_participant": "EXAMPLE_ENERGY_CO",
+  "transaction_type": "PURCHASE",
+  "delivery_date": "2025-08-28",
+  "iso": "CAISO",
+  "trading_hub": "NP15",
+  "hourly_quantities": [
+    {
+      "hour_ending": 1,
+      "quantity_mw": 50,
+      "price_limit": 52.483570765056164
+    },
+    {
+      "hour_ending": 2,
+      "quantity_mw": 50,
+      "price_limit": 53.19096417068189
+    },
+    {
+      "hour_ending": 3,
+      "quantity_mw": 25,
+      "price_limit": 60.73844269050346
+    },
+    {
+      "hour_ending": 4,
+      "quantity_mw": 25,
+      "price_limit": 68.22175099983835
+    },
+    {
+      "hour_ending": 5,
+      "quantity_mw": 25,
+      "price_limit": 61.8196141831499
+    },
+    {
+      "hour_ending": 6,
+      "quantity_mw": 25,
+      "price_limit": 63.318202609590124
+    },
+    {
+      "hour_ending": 7,
+      "quantity_mw": 25,
+      "price_limit": 72.89606407753696
+    },
+    {
+      "hour_ending": 8,
+      "quantity_mw": 25,
+      "price_limit": 68.32606104010057
+    },
+    {
+      "hour_ending": 9,
+      "quantity_mw": 25,
+      "price_limit": 60.64300912709182
+    },
+    {
+      "hour_ending": 10,
+      "quantity_mw": 25,
+      "price_limit": 63.31940193572804
+    },
+    {
+      "hour_ending": 11,
+      "quantity_mw": 25,
+      "price_limit": 55.18291153593769
+    },
+    {
+      "hour_ending": 12,
+      "quantity_mw": 50,
+      "price_limit": 51.55363690868653
+    },
+    {
+      "hour_ending": 13,
+      "quantity_mw": 50,
+      "price_limit": 51.20981135783017
+    },
+    {
+      "hour_ending": 14,
+      "quantity_mw": 100,
+      "price_limit": 36.551313100173196
+    },
+    {
+      "hour_ending": 15,
+      "quantity_mw": 100,
+      "price_limit": 33.875410837434835
+    },
+    {
+      "hour_ending": 16,
+      "quantity_mw": 100,
+      "price_limit": 36.58196063599693
+    },
+    {
+      "hour_ending": 17,
+      "quantity_mw": 100,
+      "price_limit": 31.9454633415613
+    },
+    {
+      "hour_ending": 18,
+      "quantity_mw": 100,
+      "price_limit": 37.08234926864034
+    },
+    {
+      "hour_ending": 19,
+      "quantity_mw": 100,
+      "price_limit": 30.459879622393945
+    },
+    {
+      "hour_ending": 20,
+      "quantity_mw": 100,
+      "price_limit": 28.449594098987518
+    },
+    {
+      "hour_ending": 21,
+      "quantity_mw": 100,
+      "price_limit": 44.33786278784119
+    },
+    {
+      "hour_ending": 22,
+      "quantity_mw": 100,
+      "price_limit": 38.26451677976911
+    },
+    {
+      "hour_ending": 23,
+      "quantity_mw": 100,
+      "price_limit": 42.83764102343961
+    },
+    {
+      "hour_ending": 24,
+      "quantity_mw": 100,
+      "price_limit": 38.99397339239489
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "header": {
+    "transaction_id": "NOM-B607603D",
+    "transaction_type": "NOMINATION",
+    "version": "NAESB-5.0",
+    "timestamp": "2025-08-27T22:40:40.802655",
+    "gas_day": "2025-08-28",
+    "cycle": "TIMELY"
+  },
+  "shipper": {
+    "name": "EXAMPLE_GAS_MARKETING",
+    "contract_number": "GC-2024-001",
+    "duns_number": "123456789"
+  },
+  "pipeline": {
+    "name": "TransCanada",
+    "tsp_code": "TCPL",
+    "proprietary_code": "PIPE-001"
+  },
+  "locations": [
+    {
+      "location_type": "RECEIPT",
+      "location_name": "Permian Hub",
+      "location_code": "R-PERM",
+      "quantity_dth": 50000,
+      "rank": 1,
+      "upstream_party": "PRODUCER_001",
+      "upstream_contract": "PC-2024-001",
+      "measurement_basis": "DRY",
+      "fuel_rate": 0.02
+    },
+    {
+      "location_type": "RECEIPT",
+      "location_name": "Marcellus Pool",
+      "location_code": "R-MARC",
+      "quantity_dth": 30000,
+      "rank": 2,
+      "upstream_party": "PRODUCER_001",
+      "upstream_contract": "PC-2024-001",
+      "measurement_basis": "DRY",
+      "fuel_rate": 0.02
+    },
+    {
+      "location_type": "DELIVERY",
+      "location_name": "Chicago Citygate",
+      "location_code": "D-CHIC",
+      "quantity_dth": 45000,
+      "rank": 1,
+      "downstream_party": "LDC_001",
+      "downstream_contract": "DC-2024-001",
+      "delivery_pressure_psi": 500,
+      "max_hourly_quantity": 1875.0
+    },
+    {
+      "location_type": "DELIVERY",
+      "location_name": "Detroit Metro",
+      "location_code": "D-DETR",
+      "quantity_dth": 35000,
+      "rank": 2,
+      "downstream_party": "LDC_001",
+      "downstream_contract": "DC-2024-001",
+      "delivery_pressure_psi": 500,
+      "max_hourly_quantity": 1458.3333333333333
+    }
+  ],
+  "package": {
+    "total_receipts": 80000,
+    "total_deliveries": 80000,
+    "imbalance": 0
+  }
+}

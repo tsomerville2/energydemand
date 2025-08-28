@@ -1,0 +1,97 @@
+# Gemini-generated .gitignore for Python Data Science Projects
+
+# --- Python ---
+# Ignore the virtual environment
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore distribution and packaging
+.eggs/
+*.egg-info/
+*.egg
+dist/
+build/
+parts/
+bin/
+develop-eggs/
+
+# Ignore installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore testing and coverage artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Ignore type checker caches
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.ruff_cache/
+
+
+# --- Data, Logs, and Generated Files ---
+# It's good practice to not commit raw data or generated results to git.
+# Use tools like DVC or Git LFS for large files if they need to be versioned.
+*.csv
+*.log
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ipynb_checkpoints
+
+# Ignore specific directories that appear to be for temporary or junk files
+SCAN/JUNK/
+
+
+# --- Operating System Files ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+
+# --- IDEs and Editors ---
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+
+# JetBrains (PyCharm, etc.)
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+
+# --- Secrets and Local Settings ---
+# Ignore environment files
+.env
+*.env
+.env.*
+
+# Ignore local settings for tools like Claude
+.claude/settings.local.json
+
